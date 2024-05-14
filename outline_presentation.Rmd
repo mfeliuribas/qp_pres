@@ -1,0 +1,122 @@
+# Outline presentation
+
+
+# Introduction 
+- Tenemos que estudiar las gramáticas de herencia desde un punto de vista variacionista para entender mejor la variabilidad dentro de estas gramáticas.
+- El variacionismo se ha aplicado mucho en monolingües y L2 learners, y nos ha enseñado que sus gramáticas son sistemáticas y que están gobernadas por factores lingüísticos y sociales.
+- Un tema ideal para estudiar la variación en gramáticas de herencia es la expresión de la perfectividad en español, que se hace mediante dos paradigmas: el PPC y el PS. 
+- PPC y PS son estructuras variables en español que se solapan funcionalmente en el mismo contexto.
+
+---
+# Background
+- En español la perfectividad se puede expresar usando dos formas: PPC y PS. 
+- Establecer una clara frontera entre ellas es complicado, ya que representan formas variables en español y sus usos son, por lo tanto, variables. 
+- Sin embargo, según el uso normativo, el PS se refiere a una situación que empezó y terminó en el pasado, en un perído de tiempo que no incluye el presente. El PPC se refiere a un evento que, aunque empezó en el pasado, sigue siendo relevante, reciente o está de algún modo relacionado con el presente. 
+- A pesar de estas tendencias generales en el significado, estas formas están sujetas a variación dialectal. En particular, hay dos tendencias: mayoría de países vs España peninsular.
+- Sin embargo, no solo factores sociales como la variedad del español, sino también factores lingüísticos pueden influenciar el uso de estos paradigmas en monolingües: referencia temporal, presencia de advs, aspecto léxico...
+- En el caso de bilingües no sabemos mucho, especialmente de early bilinguals, pero parece que el PPC puede ser adquirido, aunque el uso que hacen y los factores lingüísticos que les afectan son ligeramente diferente al de los monolingües.
+
+---
+# Research Questions
+So, with my QP, I intended to fill this gap and answer these RQs:
+1. What is the frequency of choice of the Spanish preterit and present perfect forms by Spanish-English bilinguals raised in the United States?
+2. How does family origin condition the selection of the perfective past time
+paradigms in Spanish?
+3. Is there a relationship between participant verb form choice, family origin, temporal reference, and lexical aspect?
+
+---
+# Methods
+
+### Participants
+- 28 Spanish-English early bilinguals
+- Edad: 18-60 
+- La mayoría se crió en hogares 100% hispanohablantes
+- La mayoría empezó a aprender inglés antes de elementary school
+- La proficiencia en español se midió con el DELE
+- Estos participantes fueron divididos en 4 grupos en función de su origen familiar: 1Spaniard, 2Spaniards, Bidialectal, Other
+
+### Materials
+- Los participantes completaron 3 tareas en Qualtrics: cuestionario demográfico, DELE, tarea de preferencia contextualizada
+- Contextualized preference task:
+  - Historias contextualizadas seguidas de 2 frases cuya diferencia estaba en la forma del verbo
+  - Los participantes tenían que elegir la frase que ellos dirían
+  - Variables lingüísticas manipuladas: referencia temporal, aspecto léxico
+  - Control de tipo de cláusula, persona verbal, tipo de verbo y negación
+  - Total: 37 items; 18 eran estímulos
+
+### Statistical Analysis
+- 504 tokens
+- Bayesian multinomial logistic regression model
+- Paradigm choice as a function of family origin, temporal reference, and lexical aspect
+-Two-way interaction: family origin x temporal reference
+- Random effects: participants and experimental items
+- Pairwise comparisons (2Spaniards as the reference level)
+
+---
+# Results and Discussion
+
+### Frequency of selection
+- El PS fue la forma más elegida
+- Both y el PPC fueron también elegidos, pero en menor frecuencia
+
+### Family origin
+- Hay diferencias de elección en cuanto al origen familiar
+- En todos los grupos la probabilidad de elegir el PS es la más alta, seguida por "both", excepto en el caso de 2Spaniards, que favorecieron más al PPC
+- PPC:
+  - Probabilidad de elección más alta en 2Spaniards, seguido de Bidialectal, 1Spaniard y Other
+  - Esta forma está favorecida por 2Spaniards comparado con 1Spaniard and Bidialectal
+- PS: 
+  - El patrón opuesto: el PS está favorecido por Other comparado con 2Spaniards
+  - Parece que no hay diferencias entre 2Spaniards y 1Spaniard, y 2Spaniards y Bidialectal
+- Both:
+  - Bidialectal y 1Spaniard lo seleccionaron más, pero las comparaciones mostraron que las diferencias entre grupos son mínimas
+
+### Temporal reference
+- También tiene un efecto en la elección de paradigma
+- PPC:
+  - Más probable elegirlo en temporally vague contexts, seguido de hodiernal y prehodiernal
+- PS:
+  - Favorecido en prehodiernal contexts, seguido de hodiernal y vague
+- Both:
+  - Patrón similar al del PPC
+
+### Temporal reference x Family origin 
+- Parece que hay una interacción
+- PPC:
+  - Generally favored by 2Spaniards in hodiernal and undetermined contexts when compared to Other and 1Spaniard
+  - When 2Spaniards is compared to Bidialectal, this difference is not that clear, even though the present perfect seems to be favored by 2Spaniards
+- PS:
+  - The opposite pattern, but only for Other, who strongly prefer the preterit in undetermined and hodiernal contexts. 
+  - The effect of temporal reference on the selection of the preterit might be zero when comparing 1Span, 2Spans and Bi.
+- Both:
+  - There is no reliable evidence of a difference between Other - 2Spaniards, 1Spaniard - 2Spaniards, and Bidialectal - 2Spaniards across any of the temporal reference levels
+
+### Lexical aspect
+- Parece que no tiene ningún efecto
+  - Estimates similares
+  - Las comparaciones showed no reliable evidence of a difference between telic and atelic preds for any of the paradigms
+
+---
+# Discussion
+(en el apartado anterior)
+
+---
+# Conclusion
+- La opción más elegida fue el PS
+- La probabilidad de selección del PPC varió en función del origen familiar y la referencia temporal, siendo favorecido por aquellos participantes con algún progenitor de España, pero a niveles distintos:
+  - Even though the probability of selection of this choice varied for 2Spaniards, 1Spaniard, and Bidialectal, the comparisons reveled that such difference was greater in 1Spaniard vis-à-vis 2Spaniards, and almost non-existent in Bidialectal vis-à-vis 2Spaniards. I attribute these differences to input quantity, as these groups differed in the variety and/or languages spoken at home, with 2Spaniards being supposedly more exposed to Peninsular Spanish.
+- El aspecto léxico no tuvo ningún efecto
+- Spanish-English early bilinguals pueden adquirir la distinción entre los paradigmas de perfectividad en español, ya que mostraron sensibilidad hacia las linguistic contraints identificadas en estudios con monolingües, en la dirección del efecto previamente establecida 
+- Sin embargo... hay algunas limitaciones que no permiten hacer generalizaciones sobre los resultados:
+  - Pocos participantes
+  - No triangulación de datos
+  - Pairwise comparisons
+- Aunque haya limitaciones, es una contribución a esos estudios que investigan la adquisición de estructuras variables
+- Muestra la complejidad en el uso de los paradigmas de perfectividad en español por parte de bilingües y revela systematic variation akin to ML native speakers.
+
+
+
+
+
+---
+Taken together, the results from my analysis indicate that Spanish-English early bilinguals can acquire the distinction between the past perfective time forms in Spanish, and that their preference towards either one of these forms (preterit, present perfect) or both seems to be constrained by two factors: family origin and temporal reference. These are two of the main factors that have consistently been reported in the literature to affect the use of the preterit vis-à-vis the present perfect. Importantly, and although I found different patterns based on family origin, participants showed sensitivity to the constraints identified in previous monolingual studies, suggesting that the variation in the selection of the preterit vis-à-vis the present perfect is systematic.
