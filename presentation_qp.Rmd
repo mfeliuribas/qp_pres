@@ -300,7 +300,7 @@ knitr::include_graphics("./figures/plot_prob_choice.png")
 ---
 <br>
 
-```{r, out.width = "95%", fig.align = "center"}
+```{r, fig.align = "center"}
 #| label: load-plot-fam
 #| echo: false 
 #| warning: false 
@@ -326,7 +326,7 @@ knitr::include_graphics("./figures/plot_fam_orig.png")
 ---
 <br>
 
-```{r, out.width = "95%", fig.align = "center"}
+```{r, fig.align = "center"}
 #| label: load-plot-tr
 #| echo: false 
 #| warning: false 
@@ -356,7 +356,7 @@ knitr::include_graphics("./figures/plot_tr_alone.png")
 ---
 <br>
 
-```{r, out.width = "100%", fig.align = "center"}
+```{r, fig.align = "center"}
 #| label: load-plot-tr-fam
 #| echo: false 
 #| warning: false 
@@ -371,7 +371,7 @@ knitr::include_graphics("./figures/plot_tref_fam.png")
 
 ### Lexical aspect
 
-```{r, out.width = "90%", fig.align = "center"}
+```{r, out.width = "82%", fig.align = "center"}
 #| label: load-plot-la
 #| echo: false 
 #| warning: false 
